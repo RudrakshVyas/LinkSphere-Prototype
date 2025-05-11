@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find-A-Friend | LinkSphere</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0fdfa;
+      color: #333;
+      padding-top: 80px;
+    }
+    .navbar {
+      background-color: teal;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: 600;
+    }
+    .banner {
+      background: url('img/friends-banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border: none;
+      border-radius: 12px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background-color: teal;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">LinkSphere</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="find-a-friend.html">Find-A-Friend</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="banner">
+  <h1>Smart Match System</h1>
+</div>
+
+<div class="section container">
+  <div class="text-center mb-5">
+    <h2>Connect with Like-Minded Students</h2>
+    <p>We help you find friends based on shared interests, courses, and campus goals.</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="card p-4">
+        <img src="img/matching1.jpg" class="card-img-top rounded" alt="Interest based matching">
+        <div class="card-body">
+          <h5 class="card-title">Match by Interests</h5>
+          <p class="card-text">Get paired with peers who share your hobbies like gaming, art, tech, and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <div class="card p-4">
+        <img src="img/matching2.jpg" class="card-img-top rounded" alt="Course based pairing">
+        <div class="card-body">
+          <h5 class="card-title">Study Buddies</h5>
+          <p class="card-text">Find friends in your own course units or upcoming assessments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 LinkSphere | Built for Deakin University Students</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

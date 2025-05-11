@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LinkSphere | Your Campus Companion</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #f9f9f9;
+        color: #333;
+        scroll-behavior: smooth;
+      }
+      .navbar {
+        background-color: teal;
+      }
+      .navbar-brand, .nav-link {
+        color: white !important;
+        font-weight: 600;
+      }
+      .jumbotron {
+        background: url('img/img.jpg') no-repeat center center;
+        background-size: cover;
+        color: white;
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        padding-bottom: 80px;
+      }
+      .jumbotron h1 {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .section {
+        padding: 60px 20px;
+      }
+      .section-title {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .feature {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .feature h5 {
+        font-weight: 600;
+        margin-top: 15px;
+      }
+      .cta {
+        background-color: #fff3e0;
+        padding: 50px;
+        text-align: center;
+        border-radius: 12px;
+      }
+      .cta button {
+        background: teal;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1rem;
+        border-radius: 6px;
+      }
+      blockquote {
+        font-style: italic;
+        background: #e0f2f1;
+        padding: 20px;
+        border-left: 5px solid #009688;
+        margin: 20px 0;
+      }
+      footer {
+        background-color: teal;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">LinkSphere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="find-a-friend.html">Find-A-Friend</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-dark text-dark ml-2" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron" id="hero">
+      <div class="container">
+        <h1>Your Campus, Your People - Instantly Connected</h1>
+        <p class="lead">Designed for first-year international students at Deakin.</p>
+        <a href="signup.html" class="btn btn-info btn-lg">Join the Beta</a>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="section bg-light" id="features">
+      <div class="container">
+        <h2 class="section-title">Why You’ll Love LinkSphere</h2>
+        <div class="row">
+          <div class="col-md-4 feature">
+            <img src="img/puzzle.png" class="mb-3" alt="Smart Match" width="80">
+            <h5>Smart Matching</h5>
+            <p>Connect with students based on interests, classes, and goals.</p>
+          </div>
+          <div class="col-md-4 feature">
+            <img src="img/location.png" class="mb-3" alt="Event Map" width="80">
+            <h5>Event Pulse Map</h5>
+            <p>Discover events happening around your campus in real-time.</p>
+          </div>
+          <div class="col-md-4 feature">
+            <img src="img/translation.png" class="mb-3" alt="Chat Support" width="80">
+            <h5>Language Support</h5>
+            <p>Chat with real-time translation and cultural icebreakers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta" id="contact">
+      <h3>Ready to Connect?</h3>
+      <p>Be among the first to experience LinkSphere at Deakin University.</p>
+      <form action="thank-you.html" method="get">
+        <div class="form-group">
+          <input type="email" class="form-control mb-3" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-info">Pre-Register Now</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">What Students Say</h2>
+        <blockquote>“LinkSphere made my first trimester feel welcoming. I didn’t feel alone.”</blockquote>
+        <blockquote>“The event map helps me find things I’d actually go to. It’s brilliant.”</blockquote>
+        <blockquote>“I met my closest uni friend using the smart match feature!”</blockquote>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 LinkSphere | Built for Deakin University Students</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
